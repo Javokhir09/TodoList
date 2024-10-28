@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import unchecked from "../../assets/images/unchecked.png"
 import checked from "../../assets/images/checked.png"
 import icon from "../../assets/images/icon.png"
+import "./TodoList.css"
 
 function TodoList() {
   const [todos, setTodos] = useState([]);
